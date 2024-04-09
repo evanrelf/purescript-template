@@ -1,0 +1,16 @@
+package:
+  name: template
+  dependencies:
+    - console
+    - effect
+    - prelude
+  test:
+    main: Test.Main
+    dependencies: []
+workspace:
+  # backend:
+  #   cmd: "purs-backend-es"
+  #   args: ["build"]
+  packageSet:
+    registry: 50.7.0
+  extraPackages: {}
